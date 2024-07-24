@@ -20,7 +20,7 @@ public class Animal {
 
     @Override
     public String toString() {
-        return name + " is a dog = " + isDog;
+        return getName() + " is a dog = " + isDog();
     }
 
     public static void main(String[] args) {
